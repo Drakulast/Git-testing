@@ -1,0 +1,100 @@
+body {
+    background-image: url("../images/aquarium.jpg");
+    background-size: cover;
+}
+
+img {
+    position: fixed;
+}
+
+#fish1Id {
+    left: 250px;
+    top: 250px;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+}
+
+#fish2Id {
+    left: 500px;
+    top: 250px;
+    width: 150px;
+    height: 150px;
+}
+
+#stingray1Id {
+    left: 10%;
+    top: 55%;
+    width: 150px;
+    height: 150px;
+}
+
+#stingray2Id {
+    left: 80%;
+    top: 55%;
+    width: 150px;
+    height: 150px;
+}
+
+.bubbleClass {
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}
+
+.bubbleSmClass {
+    width: 1%;
+    height: auto;
+}
+
+#coral1Id {
+    height: 20%;
+    width: auto;
+    left: 50%;
+    top: 80%;
+    z-index: 1;
+}
+
+#coral2Id {
+    height: 25%;
+    width: auto;
+    left: 7%;
+    top: 75%;
+}
+
+#coral3Id {
+    height: 30%;
+    width: auto;
+    left: 87%;
+    top: 67%;
+}
+
+#coral4Id {
+    height: 15%;
+    width: auto;
+    left: 40%;
+    top: 85%;
+    z-index: 2;
+}
+
+#coral5Id {
+    height: 30%;
+    width: auto;
+    left: 42%;
+    top: 66%;
+    z-index: 0;
+}
+
+#rod {
+    top: -360px;
+    transform: scale(2);
+}
+
+/*Maria*/
+#sharkId {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    bottom: 10px;
+    left: 70%;
+}
